@@ -12,11 +12,11 @@
 
 ![InterpretME Architecture](https://raw.githubusercontent.com/SDM-TIB/InterpretME_Demo_ESWC2023/main/images/architecture.png "InterpretME Architecture")
 
-InterpretME, is an analytical tool tailored for both KGs and datasets (`.csv` or `json`) for fine-grained representations, in a KG, of the main characteristics of trained machine learning models. InterpretME recieves JSON input, i.e., `features' definition`, `classes` and the `SHACL` constraints from the user. 
+InterpretME, is an analytical tool tailored for both KGs and datasets (`.csv` or `.json`) for fine-grained representations, in a KG, of the main characteristics of trained machine learning models. InterpretME recieves JSON input, i.e., `features' definition`, `classes` and the `SHACL` constraints from the user. 
 The features' definition is classified into independent and dependent variables later used in the predictive models. 
 The feature definition has the following format "x":"?x a <http://dbpedia.org/ontology/Person>.\n", "gender":"Optional{?x <http://dbpedia.org/ontology/gender> ?gender.}" where the first part states the attribute from the KG and the later part describes the definition of that attribute in the KG using SPARQL. 
 This definition allows InterpretME to trace back the origin of that feature in the KG. A *SELECT* SPARQL query is utilized to retrieve the data from the application domain. InterpretME is presented into two main quadrants:*Training* layer and *Documenting* layer. 
-In the *Training* layer, to perform the predictive task- SHACL validation [1], data curation, AutoML[2], and predictive model are utilized and interpretable tools such as Decision trees and LIME [3] are implemented to understand the predictions. 
+In the *Training* layer, to perform the predictive task- SHACL validation [1], data curation, AutoML [2], and predictive model are utilized and interpretable tools such as Decision trees and LIME [3] are implemented to understand the predictions. 
 InterpretME generates an InterpretME KG with the traced metadata of the trained predictive model in the *Documenting* layer to provide users with more enhanced and reliable interpretations. 
 An efficient RML interpreter (SDM-RDFizer [4]) and Federated Query Processing (DeTrusty [5]) are used in the creation and utilization of the InterpretME KG. Executing federated query on top of the InterpretME KG and original KG, in turn, helps user to perform data exploration and trace the entity predicted with all the relevant features in the original KG. 
 Additionally, different metrics like precision, recall and accuracy along with LIME interpretations are provided to the user.
