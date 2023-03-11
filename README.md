@@ -32,7 +32,17 @@ docker-compose up -d
 
 You can then access the demo notebook in your browser at [`localhost:8888/lab/tree/InterpretME_Demo.ipynb`](http://localhost:8888/lab/tree/InterpretME_Demo.ipynb).
 
-**References**
+## License
+This work is licensed under the MIT license.
+
+## Authors
+InterpretME has been developed by members of the Scientific Data Management Group at TIB, as an ongoing research effort.
+The development is co-ordinated and supervised by Maria-Esther Vidal.
+We strongly encourage you to report any issues you have with InterpretME.
+Please, use the GitHub issue tracker to do so.
+InterpretME has been implemented in joint work by Yashrajsinh Chudasama, Disha Purohit, and Philipp D. Rohde.
+
+## References
 
 [1] M. Figuera, P.D. Rohde, M.-E. Vidal. Trav-SHACL: Efficiently Validating Networks of SHACL Constraints. In: The Web Conference, ACM, New York, NY,USA, 2021. DOI: [10.1145/3442381.3449877](https://doi.org/10.1145/3442381.3449877).
 
@@ -43,13 +53,3 @@ You can then access the demo notebook in your browser at [`localhost:8888/lab/tr
 [4] E. Iglesias, S. Jozashoori, D. Chaves-Fraga, D. Collarana, M.-E. Vidal. SDM-RDFizer: An RML Interpreter for the Efficient Creation of RDF Knowledge Graphs. In: CIKM ’20:Proceedings of the 29th ACM International Conference on Information & Knowledge Management, ACM, New York, NY,USA, 2020. DOI: [10.1145/3340531.3412881](https://doi.org/10.1145/3340531.3412881).
 
 [5] P.D. Rohde. DeTrusty v0.11.2. 2023. DOI: [10.5281/zenodo.7670670](https://doi.org/10.5281/zenodo.7670670).
-
-## License
-This work is licensed under the MIT license.
-
-## Authors
-InterpretME has been developed by members of the Scientific Data Management Group at TIB, as an ongoing research effort.
-The development is co-ordinated and supervised by Maria-Esther Vidal.
-We strongly encourage you to report any issues you have with InterpretME.
-Please, use the GitHub issue tracker to do so.
-InterpretME has been implemented in joint work by Yashrajsinh Chudasama, Disha Purohit, and Philipp D. Rohde.
