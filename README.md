@@ -1,12 +1,5 @@
-[![DOI](https://zenodo.org/badge/488505724.svg)](https://zenodo.org/badge/latestdoi/488505724)
-[![Docker Image](https://img.shields.io/badge/Docker%20Image-sdmtib/interpretme-blue?logo=Docker)](https://hub.docker.com/r/sdmtib/interpretme)
-[![Latest Release](http://img.shields.io/github/release/SDM-TIB/InterpretME.svg?logo=github)](https://github.com/SDM-TIB/InterpretME/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-[![Python Versions](https://img.shields.io/pypi/pyversions/InterpretME)](https://pypi.org/project/InterpretME)
-[![Package Format](https://img.shields.io/pypi/format/InterpretME)](https://pypi.org/project/InterpretME)
-[![Package Status](https://img.shields.io/pypi/status/InterpretME)](https://pypi.org/project/InterpretME)
-[![Package Version](https://img.shields.io/pypi/v/InterpretME)](https://pypi.org/project/InterpretME)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SDM-TIB/InterpretME_Demo_ESWC2023/HEAD?labpath=InterpretME_Demo.ipynb)
 
 # InterpretME Demo
 
@@ -22,9 +15,10 @@ An efficient RML interpreter (SDM-RDFizer [4]) and Federated Query Processing (D
 Additionally, different metrics like precision, recall and accuracy along with LIME interpretations are provided to the user.
 
 ## Demonstration
-This repository contains the jupyter notebook (`Interpretme_french_royalty_demo.ipynb`) for a simple demonstration of InterpretME; how to interpret the machine learning models over KGs.
+This repository contains the jupyter notebook (`Interpretme_Demo.ipynb`) for a simple demonstration of InterpretME; how to interpret the machine learning models over KGs.
 For demonstration, InterpretME is utilized over the **French Royalty KG**. The SPARQL query returns the information about french royal family with relationships, i.e., *dbo:child*, *dbo:spouse* etc. Here, the predictive task is to predict whether a french royal has a spouse.
 In terms of the traits of the predictive models and SHACL validation, InterpretME KG depicts the target entities with a detailed contextual edges.
+
 ## Getting Started
 Clone the repository
 ```python
@@ -36,6 +30,7 @@ To run the demo, execute the following in your terminal:
 docker-compose up -d
 ```
 
+You can then access the demo notebook in your browser at [`localhost:8888/lab/tree/InterpretME_Demo.ipynb`](http://localhost:8888/lab/tree/InterpretME_Demo.ipynb).
 
 **References**
 
@@ -48,15 +43,6 @@ docker-compose up -d
 [4] E. Iglesias, S. Jozashoori, D. Chaves-Fraga, D. Collarana, M.-E. Vidal. SDM-RDFizer: An RML Interpreter for the Efficient Creation of RDF Knowledge Graphs. In: CIKM ’20:Proceedings of the 29th ACM International Conference on Information & Knowledge Management, ACM, New York, NY,USA, 2020. DOI: [10.1145/3340531.3412881](https://doi.org/10.1145/3340531.3412881).
 
 [5] P.D. Rohde. DeTrusty v0.11.2. 2023. DOI: [10.5281/zenodo.7670670](https://doi.org/10.5281/zenodo.7670670).
-
-
-
-
-
-
-
-
-
 
 ## License
 This work is licensed under the MIT license.

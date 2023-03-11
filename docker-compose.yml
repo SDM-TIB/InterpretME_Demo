@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  demo:
+    build: .
+    image: sdmtib/interpretme-demo:latest
+    container_name: interpretme-demo
+    command: jupyter notebook --NotebookApp.default_url=/lab/ --NotebookApp.token='' --ip=0.0.0.0 --port=8888
+    ports:
+      - "8888:8888"
+
