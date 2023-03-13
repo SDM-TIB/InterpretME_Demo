@@ -33,6 +33,8 @@ docker-compose up -d
 
 You can then access the demo notebook in your browser at [`localhost:8888/lab/tree/InterpretME_Demo.ipynb`](http://localhost:8888/lab/tree/InterpretME_Demo.ipynb).
 
+Alternatively, you can click on the Binder badge above and execute the Jupyter notebook there. Note that Binder might assign low computational resources to the instance. Hence, execution time can be higher compared to executing the notebook locally.
+
 ## License
 This work is licensed under the MIT license.
 
