@@ -14,7 +14,7 @@ In the *Training* layer, to perform the predictive task- SHACL validation [1], d
 InterpretME generates an InterpretME KG with the traced metadata of the trained predictive model in the *Documenting* layer to provide users with more enhanced and reliable interpretations. 
 An efficient RML interpreter (SDM-RDFizer [4]) and Federated Query Processing (DeTrusty [5]) are used in the creation and utilization of the InterpretME KG. Executing federated query on top of the InterpretME KG and original KG, in turn, helps user to perform data exploration and trace the entity predicted with all the relevant features in the original KG. 
 Additionally, different metrics like precision, recall and accuracy along with LIME interpretations are provided to the user. 
-The exemplar queries template are available at GitHub repository of [InterpretME](https://github.com/SDM-TIB/InterpretME/tree/main/example/queries).
+The exemplar queries template are available in the folder `queries/french_royalty`.
 
 ## Demonstration
 This repository contains the jupyter notebook (`Interpretme_Demo.ipynb`) for a simple demonstration of InterpretME; how to interpret the machine learning models over KGs.
