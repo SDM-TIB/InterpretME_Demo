@@ -1,4 +1,3 @@
-[![DOI](https://zenodo.org/badge/488505724.svg)](https://zenodo.org/badge/latestdoi/488505724)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-SDM--TIB%2FInterpretME-blue?logo=GitHub)](https://github.com/SDM-TIB/InterpretME)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/SDM-TIB/InterpretME_Demo_ESWC2023/HEAD?labpath=InterpretME_Demo.ipynb)
