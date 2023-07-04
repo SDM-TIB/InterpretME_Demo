@@ -18,6 +18,8 @@ COPY requirements.txt ${HOME}/requirements.txt
 COPY InterpretME_Demo.ipynb ${HOME}/InterpretME_Demo.ipynb
 COPY example_jupyter.json ${HOME}/example_jupyter.json
 COPY shapes ${HOME}/shapes
+COPY images ${HOME}/images
+
 
 USER root
 RUN apt-get update && \

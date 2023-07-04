@@ -4,7 +4,7 @@
 
 # InterpretME Demo
 
-![InterpretME Architecture](https://raw.githubusercontent.com/SDM-TIB/InterpretME_Demo_ESWC2023/main/images/architecture.png "InterpretME Architecture")
+![InterpretME Design Pattern](https://raw.githubusercontent.com/SDM-TIB/InterpretME_Demo/main/images/DesignPattern.png "InterpretME Design Pattern")
 
 InterpretME, is an analytical tool tailored for both KGs and datasets (`.csv` or `.json`) for fine-grained representations, in a KG, of the main characteristics of trained machine learning models. InterpretME recieves JSON input, i.e., `features' definition`, `classes` and the `SHACL` constraints from the user. 
 The features' definition is classified into independent and dependent variables later used in the predictive models. 
