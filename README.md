@@ -21,7 +21,8 @@ The exemplar queries template are available in the folder `queries/french_royalt
 This repository contains the jupyter notebook (`Interpretme_Demo.ipynb`) for a simple demonstration of InterpretME; how to interpret the machine learning models over KGs.
 For demonstration, InterpretME is utilized over the **French Royalty KG**. The SPARQL query returns the information about french royal family with relationships, i.e., *dbo:child*, *dbo:spouse* etc. Here, the predictive task is to predict whether a french royal has a spouse.
 In terms of the traits of the predictive models and SHACL validation, InterpretME KG depicts the target entities with a detailed contextual edges.
-A demonstration video is also available [`online`](https://www.youtube.com/watch?v=-DPec1sLsHs).
+A demonstration video is also available [`online`](https://www.youtube.com/watch?v=Bu4lROnY4xg). 
+`Note: Binder server might take some mins to load entire demo!!!`
 ## Getting Started
 Clone the repository
 ```python
