@@ -1,0 +1,12 @@
+.decompositions.log
+.rdfmts.log
+api.log
+config_rdfizer.ini
+error.log
+times.csv
+times.csv_hps.csv
+.ipynb_checkpoints/
+interpretme/
+output/
+rdf-dump/
+
