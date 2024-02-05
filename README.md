@@ -25,12 +25,12 @@ A demonstration video is also available [`online`](https://www.youtube.com/watch
 `Note: Binder server might take some mins to load entire demo!!!`
 ## Getting Started
 Clone the repository
-```python
-git clone git@github.com:SDM-TIB/InterpretME_Demo_ESWC2023.git
+```bash
+git clone git@github.com:SDM-TIB/InterpretME_Demo.git
 ```
 
 To run the demo, execute the following in your terminal:
-```python
+```bash
 docker-compose up -d
 ```
 
